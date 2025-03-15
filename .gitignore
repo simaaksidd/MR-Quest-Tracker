@@ -2,3 +2,4 @@
 prompting.txt
 result.json
 screenshots/
+__pycache__/

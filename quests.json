@@ -2,7 +2,7 @@
     {
       "title": "Homo Superior",
       "hero": "Magneto",
-      "partner": "Mutant allies",
+      "partner": "MUTANTS",
       "location": null,
       "questline": "As Magneto, assist Mutant allies 10 times.",
       "reward": 10,
@@ -20,7 +20,7 @@
     {
       "title": "West Coast, Best Coast",
       "hero": "Hawkeye",
-      "partner": "Avengers",
+      "partner": "AVENGERS",
       "location": null,
       "questline": "As Hawkeye, partner with the Avengers to land 10 KOs.",
       "reward": 10,
@@ -29,7 +29,7 @@
     {
       "title": "To Me, My X-Men!",
       "hero": "Storm",
-      "partner": "X-Men members",
+      "partner": "XMEN",
       "location": null,
       "questline": "As Storm, assist X-Men members 10 times.",
       "reward": 10,
@@ -74,7 +74,7 @@
       {
         "title": "Family Ties",
         "hero": "Adam Warlock",
-        "partner": "Guardians of the Galaxy",
+        "partner": "GOTG",
         "location": null,
         "questline": "As Adam Warlock, forge a soul bond with 3 allies from the Guardians of the Galaxy.",
         "reward": 10,
@@ -114,7 +114,7 @@
         "location": null,
         "questline": "As Scarlet Witch, take down Mutant enemies 10 times.",
         "reward": 10,
-        "enemy": "mutants"
+        "enemy": "MUTANTS"
       },
       {
         "title": "Spider-Sense Tingling!",
@@ -236,7 +236,7 @@
     {
       "title": "Go Get 'Em, Guardians!",
       "hero": "Rocket Raccoon",
-      "partner": null,
+      "partner": "GOTG",
       "location": null,
       "questline": "As Rocket Raccoon, revive the Guardians of the Galaxy members 5 times.",
       "reward": 10,

@@ -10,9 +10,11 @@ ISSUES:
 5) make gui ? Make full app for future cheergi
 '''
 
-AVENGERS  = []
-GOTG = []
-MUTANTS = []
+AVENGERS = ["Doctor Strange", "Thor", "Captain America", "Hulk", "Winter Soldier", "Scarlet Witch", "Iron Man", "Black Panther", "Hawkeye", "Black Widow", "Squirrel Girl"]
+GOTG = ["Rocket Raccoon", "Groot", "Mantis", "Star-Lord", "Adam Warlock"]
+MUTANTS = ["Magneto", "Psylocke", "Magik", "Namor", "Storm", "Wolverine"]
+XMEN = ["Magneto", "Psylocke", "Magik", "Storm", "Wolverine"]
+FF = ["Human Torch", "Invisible Woman", "Mister Fantastic", "The Thing"]
 LOCATIONS = []
 
 

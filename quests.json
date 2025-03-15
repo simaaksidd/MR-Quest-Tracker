@@ -1,0 +1,425 @@
+[
+    {
+      "title": "Homo Superior",
+      "hero": "Magneto",
+      "partner": "Mutant allies",
+      "location": null,
+      "questline": "As Magneto, assist Mutant allies 10 times.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Multiverse Tour",
+      "hero": "Luna Snow",
+      "partner": null,
+      "location": null,
+      "questline": "As Luna Snow, complete a match on 5 maps with different themes.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "West Coast, Best Coast",
+      "hero": "Hawkeye",
+      "partner": "Avengers",
+      "location": null,
+      "questline": "As Hawkeye, partner with the Avengers to land 10 KOs.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "To Me, My X-Men!",
+      "hero": "Storm",
+      "partner": "X-Men members",
+      "location": null,
+      "questline": "As Storm, assist X-Men members 10 times.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Hot & Trending",
+      "hero": "Human Torch",
+      "partner": null,
+      "location": null,
+      "questline": "As Human Torch, land 3 KOs with a single use of Supernova.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Might of Fuxi",
+      "hero": "Iron Fist",
+      "partner": null,
+      "location": null,
+      "questline": "As Iron Fist, land 3 KOs with a single use of Living Chi.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+        "title": "Rage Uncaged",
+        "hero": "Wolverine",
+        "partner": null,
+        "location": null,
+        "questline": "As Wolverine, land 3 KOs with a single use of Last Stand.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "Snack Attack!",
+        "hero": "Jeff the Land Shark",
+        "partner": null,
+        "location": null,
+        "questline": "As Jeff the Land Shark, swallow 4 enemies with a single use of It's Jeff!",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "Family Ties",
+        "hero": "Adam Warlock",
+        "partner": "Guardians of the Galaxy",
+        "location": null,
+        "questline": "As Adam Warlock, forge a soul bond with 3 allies from the Guardians of the Galaxy.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "Aquatic Assault",
+        "hero": "Namor",
+        "partner": null,
+        "location": null,
+        "questline": "As Namor, summon Monstro Spawn to land 10 KOs in a single game.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "Watch Your Step!",
+        "hero": "Peni Parker",
+        "partner": null,
+        "location": null,
+        "questline": "As Peni Parker, blast 3 enemies with a single use of Arachno-Mine.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "Arm Race",
+        "hero": "Winter Soldier",
+        "partner": null,
+        "location": null,
+        "questline": "As Winter Soldier, land 3 KOs with a single use of Kraken Impact.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "No More Mutants",
+        "hero": "Scarlet Witch",
+        "partner": null,
+        "location": null,
+        "questline": "As Scarlet Witch, take down Mutant enemies 10 times.",
+        "reward": 10,
+        "enemy": "mutants"
+      },
+      {
+        "title": "Spider-Sense Tingling!",
+        "hero": "Spider-Man",
+        "partner": null,
+        "location": null,
+        "questline": "As Spider-Man, detect an enemy with Spider-Sense and land a winning counterattack.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "Grip of Hunger",
+        "hero": "Venom",
+        "partner": null,
+        "location": null,
+        "questline": "As Venom, snare 4 enemies with a single use of Cellular Corrosion.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "Flawless Design",
+        "hero": "Iron Man",
+        "partner": null,
+        "location": null,
+        "questline": "As Iron Man, hit 4 enemies with a single use of Invincible Pulse Cannon.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "Vicious Vines",
+        "hero": "Groot",
+        "partner": null,
+        "location": null,
+        "questline": "As Groot, imprison 4 enemies with a single use of Strangling Prison.",
+        "reward": 10,
+        "enemy": null
+      },
+      {
+        "title": "King of the Dead",
+        "hero": "Black Panther",
+        "partner": null,
+        "location": "Intergalactic Empire of Wakanda: Hall of Djalila",
+        "questline": "As Black Panther, land a 3-player KO streak in the Intergalactic Empire of Wakanda: Hall of Djalila.",
+        "reward": 10,
+        "enemy": null
+      },
+    {
+      "title": "Frozen Fathoms",
+      "hero": "Luna Snow",
+      "partner": null,
+      "location": null,
+      "questline": "As Luna Snow, freeze an enemy Namor with Absolute Zero.",
+      "reward": 5,
+      "enemy": "Namor"
+    },
+    {
+      "title": "Moonlit Hel",
+      "hero": "Moon Knight",
+      "partner": "Hela",
+      "location": null,
+      "questline": "As Moon Knight, partner with Hela to land 1 KO.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Tree Talk",
+      "hero": "Groot",
+      "partner": null,
+      "location": null,
+      "questline": "As Groot, issue a ping and receive a response from allies.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Clash of Kings",
+      "hero": "Black Panther",
+      "partner": null,
+      "location": null,
+      "questline": "As Black Panther, take down an enemy Namor.",
+      "reward": 5,
+      "enemy": "Namor"
+    },
+    {
+      "title": "Street Justice!",
+      "hero": "Cloak & Dagger",
+      "partner": "Spider-Man",
+      "location": null,
+      "questline": "As Cloak & Dagger, assist Spider-Man in landing 1 KO.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Ragnaröked",
+      "hero": "Hela",
+      "partner": "Loki",
+      "location": null,
+      "questline": "As Hela, partner with Loki to take down an enemy Thor.",
+      "reward": 5,
+      "enemy": "Thor"
+    },
+    {
+      "title": "Symphony of Light and Dark",
+      "hero": "Cloak & Dagger",
+      "partner": null,
+      "location": null,
+      "questline": "As Cloak & Dagger, assist allies in achieving a team wipe.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Terror of the Ten Realms",
+      "hero": "Hela",
+      "partner": null,
+      "location": "Yggsgard: Yggdrasill Path",
+      "questline": "As Hela, land a 3-player KO streak in Yggsgard: Yggdrasill Path.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Go Get 'Em, Guardians!",
+      "hero": "Rocket Raccoon",
+      "partner": null,
+      "location": null,
+      "questline": "As Rocket Raccoon, revive the Guardians of the Galaxy members 5 times.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Justice for All!",
+      "hero": "Captain America",
+      "partner": null,
+      "location": null,
+      "questline": "As Captain America, land 3 KOs with a single use of Freedom Charge.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Victory in Bloom",
+      "hero": "Mantis",
+      "partner": null,
+      "location": null,
+      "questline": "As Mantis, assist allies in achieving a team wipe.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Perilous Portal",
+      "hero": "Doctor Strange",
+      "partner": null,
+      "location": null,
+      "questline": "As Doctor Strange, land 1 terrain KO with the portal.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "God of Treachery",
+      "hero": "Loki",
+      "partner": null,
+      "location": null,
+      "questline": "As Loki, land one KO by stabbing from behind.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Smoke Screen",
+      "hero": "The Punisher",
+      "partner": null,
+      "location": null,
+      "questline": "As the Punisher, land 3 KOs amidst the smoke of Scourge Grenade in a single game.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Smart Is New Smash",
+      "hero": "Bruce Banner",
+      "partner": null,
+      "location": null,
+      "questline": "As Bruce Banner, land 1 KO within 3 seconds of calming down from the Hulk to Banner.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "Who's the Strongest Now?",
+      "hero": "The Thing",
+      "partner": null,
+      "location": null,
+      "questline": "As The Thing, take down an enemy Hulk.",
+      "reward": 10,
+      "enemy": "Hulk"
+    },
+    {
+      "title": "Daughters of Liberty",
+      "hero": "Invisible Woman",
+      "partner": "Black Widow",
+      "location": null,
+      "questline": "As Invisible Woman, partner with Black Widow to land 1 KO.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "To Solve Everything",
+      "hero": "Mister Fantastic",
+      "partner": "Iron Man",
+      "location": null,
+      "questline": "As Mister Fantastic, partner with Iron Man to land 1 KO.",
+      "reward": 10,
+      "enemy": null
+    },
+    {
+      "title": "The New Agents of Atlas",
+      "hero": "Iron Fist",
+      "partner": "Luna Snow",
+      "location": null,
+      "questline": "As Iron Fist, land 1 KO with an assist from Luna Snow.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Learn THIS, bub!",
+      "hero": "Wolverine",
+      "partner": null,
+      "location": null,
+      "questline": "As Wolverine, take down an enemy Magneto.",
+      "reward": 5,
+      "enemy": "Magneto"
+    },
+    {
+      "title": "Jian and Katana",
+      "hero": "Psylocke",
+      "partner": "Iron Fist",
+      "location": null,
+      "questline": "As Psylocke, partner with Iron Fist to land 1 KO.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Getting Chummy",
+      "hero": "Namor",
+      "partner": "Jeff the Land Shark",
+      "location": null,
+      "questline": "As Namor, land 1 KO with an assist from Jeff the Land Shark.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Spider-Fighters",
+      "hero": "Peni Parker",
+      "partner": "Spider-Man",
+      "location": null,
+      "questline": "As Peni Parker, partner with Spider-Man to land 1 KO.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Rodent Rampage",
+      "hero": "Rocket Raccoon",
+      "partner": "Squirrel Girl",
+      "location": null,
+      "questline": "As Rocket Raccoon, assist Squirrel Girl in landing 1 KO.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Arrow's Bite",
+      "hero": "Hawkeye",
+      "partner": "Black Widow",
+      "location": null,
+      "questline": "As Hawkeye, partner with Black Widow to land 1 KO.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Psychic Sisters",
+      "hero": "Mantis",
+      "partner": "Psylocke",
+      "location": null,
+      "questline": "As Mantis, assist Psylocke in landing 1 KO.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "Inner Strength",
+      "hero": "Doctor Strange",
+      "partner": null,
+      "location": null,
+      "questline": "As Doctor Strange, knock out the Hulk's soul with the Eye of Agamotto.",
+      "reward": 5,
+      "enemy": "Hulk"
+    },
+    {
+      "title": "Brotherly Love",
+      "hero": "Loki",
+      "partner": "Thor",
+      "location": null,
+      "questline": "As Loki, assist Thor in landing 1 KO.",
+      "reward": 5,
+      "enemy": null
+    },
+    {
+      "title": "No Love Lost",
+      "hero": "Storm",
+      "partner": "Black Panther",
+      "location": null,
+      "questline": "As Storm, partner with Black Panther to land 1 KO.",
+      "reward": 5,
+      "enemy": null
+    }
+]

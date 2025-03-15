@@ -1,6 +1,6 @@
 [
   {
-    "Name": "Cloak & Dagger",
+    "Name": "Cloak and Dagger",
     "Type": "Strategist",
     "Lore": null,
     "Id": 1,
@@ -144,7 +144,7 @@
     "WinRate": "48.32%"
   },
   {
-    "Name": "Spider-Man",
+    "Name": "Spider Man",
     "Type": "Duelist",
     "Lore": null,
     "Id": 19,
@@ -155,7 +155,7 @@
     "Name": "Psylocke",
     "Type": "Duelist",
     "Lore": ["X-Men", "Mutants"],
-    "Id": 21,
+    "Id": 20,
     "PickRate": "6.50%",
     "WinRate": "50.17%"
   },
@@ -163,7 +163,7 @@
     "Name": "Scarlet Witch",
     "Type": "Duelist",
     "Lore": ["Avengers"],
-    "Id": 23,
+    "Id": 21,
     "PickRate": "6.06%",
     "WinRate": "50.48%"
   },
@@ -171,7 +171,7 @@
     "Name": "Iron Man",
     "Type": "Duelist",
     "Lore": ["Avengers"],
-    "Id": 25,
+    "Id": 22,
     "PickRate": "5.83%",
     "WinRate": "50.08%"
   },
@@ -179,7 +179,7 @@
     "Name": "Mister Fantastic",
     "Type": "Duelist",
     "Lore": ["Fantastic Four"],
-    "Id": 26,
+    "Id": 23,
     "PickRate": "5.03%",
     "WinRate": "53.99%"
   },
@@ -187,7 +187,7 @@
     "Name": "Magik",
     "Type": "Duelist",
     "Lore": ["X-Men", "Mutants"],
-    "Id": 27,
+    "Id": 24,
     "PickRate": "4.75%",
     "WinRate": "53.14%"
   },
@@ -195,7 +195,7 @@
     "Name": "Namor",
     "Type": "Duelist",
     "Lore": ["Mutants"],
-    "Id": 28,
+    "Id": 25,
     "PickRate": "4.19%",
     "WinRate": "50.72%"
   },
@@ -203,7 +203,7 @@
     "Name": "Hela",
     "Type": "Duelist",
     "Lore": null,
-    "Id": 29,
+    "Id": 26,
     "PickRate": "3.97%",
     "WinRate": "50.07%"
   },
@@ -211,7 +211,7 @@
     "Name": "Storm",
     "Type": "Duelist",
     "Lore": ["X-Men", "Mutants"],
-    "Id": 30,
+    "Id": 27,
     "PickRate": "3.73%",
     "WinRate": "58.11%"
   },
@@ -219,7 +219,7 @@
     "Name": "Wolverine",
     "Type": "Duelist",
     "Lore": ["X-Men", "Mutants"],
-    "Id": 31,
+    "Id": 28,
     "PickRate": "3.69%",
     "WinRate": "49.41%"
   },
@@ -227,7 +227,7 @@
     "Name": "Black Panther",
     "Type": "Duelist",
     "Lore": ["Avengers"],
-    "Id": 32,
+    "Id": 29,
     "PickRate": "3.45%",
     "WinRate": "49.89%"
   },
@@ -235,7 +235,7 @@
     "Name": "Hawkeye",
     "Type": "Duelist",
     "Lore": ["Avengers"],
-    "Id": 33,
+    "Id": 30,
     "PickRate": "3.26%",
     "WinRate": "44.63%"
   },
@@ -243,7 +243,7 @@
     "Name": "Iron Fist",
     "Type": "Duelist",
     "Lore": null,
-    "Id": 34,
+    "Id": 31,
     "PickRate": "3.11%",
     "WinRate": "49.95%"
   },
@@ -251,8 +251,48 @@
     "Name": "Black Widow",
     "Type": "Duelist",
     "Lore": ["Avengers"],
-    "Id": 35,
+    "Id": 32,
     "PickRate": "2.76%",
     "WinRate": "42.31%"
+  },
+  {
+    "Name": "Star-Lord",
+    "Type": "Duelist",
+    "Lore": ["Guardians of the Galaxy"],
+    "Id": 33,
+    "PickRate": "5.90%",
+    "WinRate": "49.15%"
+  },
+  {
+    "Name": "Squirrel Girl",
+    "Type": "Duelist",
+    "Lore": ["Avengers"],
+    "Id": 34,
+    "PickRate": "6.15%",
+    "WinRate": "50.40%"
+  },
+  {
+    "Name": "Adam Warlock",
+    "Type": "Strategist",
+    "Lore": ["Guardians of the Galaxy"],
+    "Id": 35,
+    "PickRate": "6.59%",
+    "WinRate": "52.42%"
+  },
+  {
+    "Name": "Human Torch",
+    "Type": "Duelist",
+    "Lore": ["Fantastic Four"],
+    "Id": 36,
+    "PickRate": null,
+    "WinRate": null
+  },
+  {
+    "Name": "The Thing",
+    "Type": "Vanguard",
+    "Lore": ["Fantastic Four"],
+    "Id": 37,
+    "PickRate": null,
+    "WinRate": null
   }
 ]

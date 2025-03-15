@@ -1,22 +1,16 @@
 import json
 from collections import defaultdict
+from hero_data import load_heroes, create_hero_groups
 
 '''
 ISSUES:
-1) when working with location-locked heroes, the hero reward is counting even though the hero is not on the correct map (this is bc the program is only looking for the hero)
-2) when working on heros with partner-locked heroes, the hero reward is counting even though the hero is not with the correct team (this is bc the program is only looking for the hero)
-3) for groups of heroes like avenger, xmen, mutants, etc. The program doesnt work for those yet. 
 4) I want to abbreviate character and location names so i do not have to type it all out
 5) make gui ? Make full app for future cheergi
 '''
 
-AVENGERS = ["Doctor Strange", "Thor", "Captain America", "Hulk", "Winter Soldier", "Scarlet Witch", "Iron Man", "Black Panther", "Hawkeye", "Black Widow", "Squirrel Girl"]
-GOTG = ["Rocket Raccoon", "Groot", "Mantis", "Star-Lord", "Adam Warlock"]
-MUTANTS = ["Magneto", "Psylocke", "Magik", "Namor", "Storm", "Wolverine"]
-XMEN = ["Magneto", "Psylocke", "Magik", "Storm", "Wolverine"]
-FF = ["Human Torch", "Invisible Woman", "Mister Fantastic", "The Thing"]
-LOCATIONS = []
-
+# Load hero data and create group mappings
+heroes = load_heroes()
+hero_groups = create_hero_groups(heroes)
 
 def calculate_potential_points(quests, teammates, location, enemies):
     hero_scores = defaultdict(lambda: {"points": 0, "quests": []})
@@ -44,12 +38,22 @@ def calculate_potential_points(quests, teammates, location, enemies):
             continue
             
         # Check each condition
-        if conditions["partner"] and conditions["partner"] not in teammates:
-            conditions_met = False
+        if conditions["partner"]:
+            if conditions["partner"] in hero_groups:
+                if not any(member in teammates for member in hero_groups[conditions["partner"]]):
+                    conditions_met = False
+            elif conditions["partner"] not in teammates:
+                conditions_met = False
+                
         if conditions["location"] and conditions["location"] != location:
             conditions_met = False
-        if conditions["enemy"] and conditions["enemy"] not in enemies:
-            conditions_met = False
+            
+        if conditions["enemy"]:
+            if conditions["enemy"] in hero_groups:
+                if not any(member in enemies for member in hero_groups[conditions["enemy"]]):
+                    conditions_met = False
+            elif conditions["enemy"] not in enemies:
+                conditions_met = False
             
         # If all conditions are met and hero isn't in teammates, add points
         if conditions_met and hero not in teammates:
@@ -69,7 +73,6 @@ def main():
         quest_data = json.load(file)
 
     result = calculate_potential_points(quest_data, teammates, location, enemies)
-
 
     with open("result.json", "w") as f:
         json.dump(result, f, indent=2)

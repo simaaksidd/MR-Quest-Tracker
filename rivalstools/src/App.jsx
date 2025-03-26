@@ -14,18 +14,15 @@ function App() {
       setTeamUnits((prev) => {
         const newUnits = [...prev];
         const index = newUnits.findIndex(sameHero => sameHero.id === hero.id);
-        if (index !== -1) {
+        if (index !== -1 && index !== 0) {
           newUnits[index] = {id: null};
         }
-        else {
-          console.log(newUnits)
-          const emptyIndex = newUnits.findIndex(empty => empty.id === null);
-          console.log(emptyIndex)
+        else if (index === -1) {
+          const emptyIndex = newUnits.findIndex((empty, idx) => empty.id === null && idx !== 0);
           if (emptyIndex !== -1) {
             newUnits[emptyIndex] = {...hero};
           }
         }
-        console.log(teamUnits);
         return newUnits;
       });
     } else {
@@ -36,14 +33,11 @@ function App() {
           newUnits[index] = {id: null};
         }
         else {
-          console.log(newUnits)
           const emptyIndex = newUnits.findIndex(empty => empty.id === null);
-          console.log(emptyIndex)
           if (emptyIndex !== -1) {
             newUnits[emptyIndex] = {...hero};
           }
         }
-        console.log(teamUnits);
         return newUnits;
       });
     }
@@ -53,10 +47,14 @@ function App() {
     <>
     <Navbar></Navbar>
     <h1>Team Builder</h1>
-    <button onClick={() => setIsTeam(!isTeam)}>
-        {isTeam ? 'Team' : 'Enemy'}
-    </button>
-    <Board teamUnits={teamUnits} enemyUnits={enemyUnits} onUnitClick={handleUnitClick}></Board>
+    <div className='button-section'>
+      <div className='button-container'>  
+        <button className='team-button' onClick={() => setIsTeam(!isTeam)}>
+            {isTeam ? 'Team' : 'Enemy'}
+        </button>
+      </div>
+      <Board teamUnits={teamUnits} enemyUnits={enemyUnits} onUnitClick={handleUnitClick}></Board>
+    </div>
     <div className='game-information'>
       <div className="hero-section">
         <Unit title="Vanguard" onUnitClick={handleUnitClick}></Unit>

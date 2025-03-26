@@ -1,25 +1,34 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import './styles/Unit.css'
 
-function Unit({ title = ""}) {
-    const [filteredHeroes, setFilteredHeroes] = React.useState([]);
+function Unit({ title = "", onUnitClick }) {
+    const [heroes, setHeroes] = useState([]);
 
-    React.useEffect(() => {
+    useEffect(() => {
         fetch('./src/heroes.json')
         .then(response => response.json())
         .then(data => {
-            const heroes = data.filter(hero => hero.type === title);
-            setFilteredHeroes(heroes);
+            const heroTypes = data.filter(hero => hero.type === title);
+            setHeroes(heroTypes);
         })
         .catch(error => console.error('Error fetching heroes:', error));
     }, [title]);
+
     return (
         <div className="hero-wrapper">
             <h3 className="hero-title">{title}</h3>
             <div className="hero-container">
                 <div className="hero-grid">
-                    {filteredHeroes.map((hero, index) => (
-                        <img src={hero.img} key={index} className="hero-box" alt={hero.name}></img>
+                    {heroes.map((hero) => (
+                        <img 
+                        src={hero.img} 
+                        alt={hero.name}
+                        key={hero.id} 
+                        className="hero-box"
+                        title={hero.name}
+                        onClick={() => onUnitClick(hero)}
+                        style={{ cursor: "pointer" }}>
+                        </img>
                     ))}
                 </div>
           </div> 

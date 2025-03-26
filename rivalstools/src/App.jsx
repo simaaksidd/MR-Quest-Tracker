@@ -12,10 +12,12 @@ function App() {
     <Navbar></Navbar>
     <h1>Rivals Tools</h1>
     <Board></Board>
-    <div className="hero-section">
-      <Unit title="Vanguard" boxCount={9}></Unit>
-      <Unit title="Duelist" boxCount={20}></Unit>
-      <Unit title="Strategist" boxCount={8}></Unit>
+    <div className='game-information'>
+      <div className="hero-section">
+        <Unit title="Vanguard" boxCount={9}></Unit>
+        <Unit title="Duelist" boxCount={20}></Unit>
+        <Unit title="Strategist" boxCount={8}></Unit>
+      </div>
     </div>
     </>
   )

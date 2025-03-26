@@ -6,11 +6,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
     width: auto;
     height: auto;
+    border-radius: 10px;
   }
   
   .hero-title {
@@ -29,7 +27,7 @@
   .hero-box {
     width: 42px;
     height: 40px;
-    background-color: white;
+    background-color: #333;
     border-radius: 5px;
   }
   .hero-wrapper {

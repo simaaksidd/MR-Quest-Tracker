@@ -15,7 +15,17 @@
 
 .hero-section {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 5%;
+}
+
+.game-information {
+  display: flex;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
 }
 
 a {

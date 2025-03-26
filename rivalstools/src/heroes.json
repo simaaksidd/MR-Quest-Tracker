@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Cloak and Dagger",
+    "type": "Strategist",
+    "lore": null,
+    "id": 1,
+    "pickrate": "18.84%",
+    "winrate": "51.42%",
+    "img": "./public/hero_icons/cloak_and_dagger.png"
+  },
+  {
+    "name": "Invisible Woman",
+    "type": "Strategist",
+    "lore": ["Fantastic Four"],
+    "id": 2,
+    "pickrate": "18.12%",
+    "winrate": "50.17%",
+    "img": "./public/hero_icons/invisible_woman.png"
+  },
+  {
+    "name": "Doctor Strange",
+    "type": "Vanguard",
+    "lore": ["Avengers"],
+    "id": 3,
+    "pickrate": "15.50%",
+    "winrate": "50.72%",
+    "img": "./public/hero_icons/doctor_strange.png"
+  },
+  {
+    "name": "Venom",
+    "type": "Vanguard",
+    "lore": null,
+    "id": 4,
+    "pickrate": "14.42%",
+    "winrate": "50.08%",
+    "img": "./public/hero_icons/venom.png"
+  },
+  {
+    "name": "Peni Parker",
+    "type": "Vanguard",
+    "lore": null,
+    "id": 5,
+    "pickrate": "14.29%",
+    "winrate": "54.82%",
+    "img": "./public/hero_icons/peni_parker.png"
+  },
+  {
+    "name": "Rocket Raccoon",
+    "type": "Strategist",
+    "lore": ["Guardians of the Galaxy"],
+    "id": 6,
+    "pickrate": "13.99%",
+    "winrate": "55.23%",
+    "img": "./public/hero_icons/rocket_raccoon.png"
+  },
+  {
+    "name": "Thor",
+    "type": "Vanguard",
+    "lore": ["Avengers"],
+    "id": 7,
+    "pickrate": "13.23%",
+    "winrate": "54.71%",
+    "img": "./public/hero_icons/thor.png"
+  },
+  {
+    "name": "Luna Snow",
+    "type": "Strategist",
+    "lore": null,
+    "id": 8,
+    "pickrate": "12.61%",
+    "winrate": "48.97%",
+    "img": "./public/hero_icons/luna_snow.png"
+  },
+  {
+    "name": "Magneto",
+    "type": "Vanguard",
+    "lore": ["X-Men", "Mutants"],
+    "id": 9,
+    "pickrate": "12.60%",
+    "winrate": "50.43%",
+    "img": "./public/hero_icons/magneto.png"
+  },
+  {
+    "name": "Jeff the Land Shark",
+    "type": "Strategist",
+    "lore": null,
+    "id": 10,
+    "pickrate": "11.39%",
+    "winrate": "44.61%",
+    "img": "./public/hero_icons/jeff_the_land_shark.png"
+  },
+  {
+    "name": "Groot",
+    "type": "Vanguard",
+    "lore": ["Guardians of the Galaxy"],
+    "id": 11,
+    "pickrate": "11.01%",
+    "winrate": "50.32%",
+    "img": "./public/hero_icons/groot.png"
+  },
+  {
+    "name": "Mantis",
+    "type": "Strategist",
+    "lore": ["Guardians of the Galaxy"],
+    "id": 12,
+    "pickrate": "10.24%",
+    "winrate": "55.65%",
+    "img": "./public/hero_icons/mantis.png"
+  },
+  {
+    "name": "Captain America",
+    "type": "Vanguard",
+    "lore": ["Avengers"],
+    "id": 13,
+    "pickrate": "9.98%",
+    "winrate": "53.45%",
+    "img": "./public/hero_icons/captain_america.png"
+  },
+  {
+    "name": "Moon Knight",
+    "type": "Duelist",
+    "lore": null,
+    "id": 14,
+    "pickrate": "8.99%",
+    "winrate": "49.09%",
+    "img": "./public/hero_icons/moon_knight.png"
+  },
+  {
+    "name": "Hulk",
+    "type": "Vanguard",
+    "lore": ["Avengers"],
+    "id": 15,
+    "pickrate": "8.98%",
+    "winrate": "51.87%",
+    "img": "./public/hero_icons/hulk.png"
+  },
+  {
+    "name": "Loki",
+    "type": "Strategist",
+    "lore": null,
+    "id": 16,
+    "pickrate": "8.22%",
+    "winrate": "52.55%",
+    "img": "./public/hero_icons/loki.png"
+  },
+  {
+    "name": "Winter Soldier",
+    "type": "Duelist",
+    "lore": ["Avengers"],
+    "id": 17,
+    "pickrate": "8.09%",
+    "winrate": "50.38%",
+    "img": "./public/hero_icons/winter_soldier.png"
+  },
+  {
+    "name": "The Punisher",
+    "type": "Duelist",
+    "lore": null,
+    "id": 18,
+    "pickrate": "7.58%",
+    "winrate": "48.32%",
+    "img": "./public/hero_icons/the_punisher.png"
+  },
+  {
+    "name": "Spider Man",
+    "type": "Duelist",
+    "lore": null,
+    "id": 19,
+    "pickrate": "6.96%",
+    "winrate": "49.45%",
+    "img": "./public/hero_icons/spider_man.png"
+  },
+  {
+    "name": "Psylocke",
+    "type": "Duelist",
+    "lore": ["X-Men", "Mutants"],
+    "id": 20,
+    "pickrate": "6.50%",
+    "winrate": "50.17%",
+    "img": "./public/hero_icons/psylocke.png"
+  },
+  {
+    "name": "Scarlet Witch",
+    "type": "Duelist",
+    "lore": ["Avengers"],
+    "id": 21,
+    "pickrate": "6.06%",
+    "winrate": "50.48%",
+    "img": "./public/hero_icons/scarlet_witch.png"
+  },
+  {
+    "name": "Iron Man",
+    "type": "Duelist",
+    "lore": ["Avengers"],
+    "id": 22,
+    "pickrate": "5.83%",
+    "winrate": "50.08%",
+    "img": "./public/hero_icons/iron_man.png"
+  },
+  {
+    "name": "Mister Fantastic",
+    "type": "Duelist",
+    "lore": ["Fantastic Four"],
+    "id": 23,
+    "pickrate": "5.03%",
+    "winrate": "53.99%",
+    "img": "./public/hero_icons/mister_fantastic.png"
+  },
+  {
+    "name": "Magik",
+    "type": "Duelist",
+    "lore": ["X-Men", "Mutants"],
+    "id": 24,
+    "pickrate": "4.75%",
+    "winrate": "53.14%",
+    "img": "./public/hero_icons/magik.png"
+  },
+  {
+    "name": "Namor",
+    "type": "Duelist",
+    "lore": ["Mutants"],
+    "id": 25,
+    "pickrate": "4.19%",
+    "winrate": "50.72%",
+    "img": "./public/hero_icons/namor.png"
+  },
+  {
+    "name": "Hela",
+    "type": "Duelist",
+    "lore": null,
+    "id": 26,
+    "pickrate": "3.97%",
+    "winrate": "50.07%",
+    "img": "./public/hero_icons/hela.png"
+  },
+  {
+    "name": "Storm",
+    "type": "Duelist",
+    "lore": ["X-Men", "Mutants"],
+    "id": 27,
+    "pickrate": "3.73%",
+    "winrate": "58.11%",
+    "img": "./public/hero_icons/storm.png"
+  },
+  {
+    "name": "Wolverine",
+    "type": "Duelist",
+    "lore": ["X-Men", "Mutants"],
+    "id": 28,
+    "pickrate": "3.69%",
+    "winrate": "49.41%",
+    "img": "./public/hero_icons/wolverine.png"
+  },
+  {
+    "name": "Black Panther",
+    "type": "Duelist",
+    "lore": ["Avengers"],
+    "id": 29,
+    "pickrate": "3.45%",
+    "winrate": "49.89%",
+    "img": "./public/hero_icons/black_panther.png"
+  },
+  {
+    "name": "Hawkeye",
+    "type": "Duelist",
+    "lore": ["Avengers"],
+    "id": 30,
+    "pickrate": "3.26%",
+    "winrate": "44.63%",
+    "img": "./public/hero_icons/hawkeye.png"
+  },
+  {
+    "name": "Iron Fist",
+    "type": "Duelist",
+    "lore": null,
+    "id": 31,
+    "pickrate": "3.11%",
+    "winrate": "49.95%",
+    "img": "./public/hero_icons/iron_fist.png"
+  },
+  {
+    "name": "Black Widow",
+    "type": "Duelist",
+    "lore": ["Avengers"],
+    "id": 32,
+    "pickrate": "2.76%",
+    "winrate": "42.31%",
+    "img": "./public/hero_icons/black_widow.png"
+  },
+  {
+    "name": "Star-Lord",
+    "type": "Duelist",
+    "lore": ["Guardians of the Galaxy"],
+    "id": 33,
+    "pickrate": "5.90%",
+    "winrate": "49.15%",
+    "img": "./public/hero_icons/star_lord.png"
+  },
+  {
+    "name": "Squirrel Girl",
+    "type": "Duelist",
+    "lore": ["Avengers"],
+    "id": 34,
+    "pickrate": "6.15%",
+    "winrate": "50.40%",
+    "img": "./public/hero_icons/squirrel_girl.png"
+  },
+  {
+    "name": "Adam Warlock",
+    "type": "Strategist",
+    "lore": ["Guardians of the Galaxy"],
+    "id": 35,
+    "pickrate": "6.59%",
+    "winrate": "52.42%",
+    "img": "./public/hero_icons/adam_warlock.png"
+  },
+  {
+    "name": "Human Torch",
+    "type": "Duelist",
+    "lore": ["Fantastic Four"],
+    "id": 36,
+    "pickrate": null,
+    "winrate": null,
+    "img": "./public/hero_icons/human_torch.png"
+  },
+  {
+    "name": "The Thing",
+    "type": "Vanguard",
+    "lore": ["Fantastic Four"],
+    "id": 37,
+    "pickrate": null,
+    "winrate": null,
+    "img": "./public/hero_icons/the_thing.png"
+  }
+]

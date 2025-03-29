@@ -46,14 +46,28 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-    <h1>Team Builder</h1>
-    <div className='button-section'>
-      <div className='button-container'>  
-        <button className='team-button' onClick={() => setIsTeam(!isTeam)}>
-            {isTeam ? 'Team' : 'Enemy'}
-        </button>
+    <div className='top-input'>
+      <div className='team-up-section'>
+        <h2 className='team-up-heading'>Team Up Abilities</h2>
+        Hello!
       </div>
-      <Board teamUnits={teamUnits} enemyUnits={enemyUnits} onUnitClick={handleUnitClick}></Board>
+      <div className='top-section'>
+        <h1>Team Builder</h1>
+        <div className='top-panel'>
+          <div className='button-container'>  
+            <button className='team-button' onClick={() => setIsTeam(!isTeam)}>
+                {isTeam ? 'Team' : 'Enemy'}
+            </button>
+            <button className='team-button' onClick={() => {
+                setTeamUnits(Array(6).fill({id: null}));
+                setEnemyUnits(Array(6).fill({id: null}));
+            }}>
+                Reset
+            </button>
+          </div>
+          <Board teamUnits={teamUnits} enemyUnits={enemyUnits} onUnitClick={handleUnitClick}></Board>
+        </div>
+      </div>
     </div>
     <div className='game-information'>
       <div className="hero-section">
@@ -62,8 +76,12 @@ function App() {
         <Unit title="Strategist" onUnitClick={handleUnitClick}></Unit>
       </div>
     </div>
+    <footer className="footer">
+      <p>
+        Rivals.tools isn't endorsed by NetEase Games and doesn't reflect the views or opinions of NetEase Games or anyone officially involved in producing or managing NetEase Games properties. NetEase Games, and all associated properties are trademarks or registered trademarks of NetEase Games, Inc.
+      </p>
+    </footer>
     </>
   )
 }
-
 export default App

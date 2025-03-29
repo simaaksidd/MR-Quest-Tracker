@@ -1,6 +1,5 @@
 .hero-container {
-    background-color: #333;
-    color: white;
+    background-color: rgba(54,53,53,0.8);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -15,6 +14,7 @@
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: goldenrod;
+    /* opacity: 0.6; */
   }
   
   .hero-grid {

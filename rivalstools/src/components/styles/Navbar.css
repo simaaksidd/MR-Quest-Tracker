@@ -1,6 +1,8 @@
 .navbar {
     background-color: #333;
     padding: 1rem;
+    opacity: 0.8;
+    border-radius: 10px;
 }
 
 .nav-list {

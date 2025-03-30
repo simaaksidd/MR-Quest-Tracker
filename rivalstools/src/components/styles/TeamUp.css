@@ -1,0 +1,17 @@
+.team-up-section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(54,53,53,0.8);
+    align-items: center;
+    width: 270px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-bottom: 0px;
+    margin-right: 99px;
+  }
+  
+  .team-up-heading {
+    font-size: 1.2rem;
+    color: goldenrod;
+  }

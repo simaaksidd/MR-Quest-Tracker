@@ -1,6 +1,6 @@
 import "./styles/Board.css";
 
-function Board({ teamUnits, enemyUnits, onUnitClick}) {
+function Board({ teamUnits, enemyUnits, onUnitClick, isTeam}) {
 
   return (
   <div className="board-section">
@@ -20,11 +20,11 @@ function Board({ teamUnits, enemyUnits, onUnitClick}) {
             alt={hero.name}
             title={hero.name}
             className="board-unit"
-            onClick={() => onUnitClick(hero)}
+            onClick={() => isTeam && onUnitClick(hero)}
             style={{ cursor: "pointer" }}>
             </img>
             : <img
-            src="./marvel_rivals_logo.png"
+            src="./nohero.png"
             alt="empty"
             title="empty"
             className="board-unit">
@@ -42,7 +42,7 @@ function Board({ teamUnits, enemyUnits, onUnitClick}) {
             alt={hero.name}
             title={hero.name}
             className="board-unit"
-            onClick={() => onUnitClick(hero)}
+            onClick={() => isTeam && onUnitClick(hero)}
             style={{ cursor: "pointer" }}>
             </img>
             : <img

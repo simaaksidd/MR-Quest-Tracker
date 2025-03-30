@@ -47,6 +47,14 @@
     max-height: 100%;
 } */
 
+.board-unit-you {
+    width: 70px;
+    height: 65px;
+    background-color: rgba(218, 156, 32, 0);
+    border-radius: 5%;
+    margin: 10%;
+}
+
 .board-unit {
     width: 70px;
     height: 65px;

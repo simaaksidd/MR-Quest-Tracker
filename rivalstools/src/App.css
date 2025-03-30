@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: url('./background1.jpg');
+  background-image: url('./background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -26,23 +26,6 @@
   border-radius: 10px;
 }
 
-.team-up-section {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(54,53,53,0.8);
-  align-items: center;
-  width: 270px;
-  height: 500px;
-  border-radius: 10px;
-  margin: 50px;
-  margin-bottom: 0px;
-}
-
-.team-up-heading {
-  font-size: 1.2rem;
-  color: goldenrod;
-}
-
 .top-panel {
   display: flex;
   flex-direction: column;
@@ -51,14 +34,16 @@
   width: auto;
   height: auto;
   border-radius: 10px;
+  gap: 20px;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: auto;
+  background-color: rgba(54,53,53,0.8);
+  width: 300px;
+  height: 60px;
   border-radius: 10px;
   gap: 50px;
 }
@@ -100,10 +85,15 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  color: black;
-  background-color: rgba(33, 148, 20, 0.747);
+  color: goldenrod;
+  background-color: transparent;
+  border: 1px solid goldenrod;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(218, 165, 32, 0.1);
 }
 
 footer {

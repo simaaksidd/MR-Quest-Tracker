@@ -3,9 +3,11 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Board from './components/board'
 import Unit from './components/Unit'
+import TeamUp from './components/TeamUp';
 
 function App() {
   const [teamUnits, setTeamUnits] = useState(Array(6).fill({id: null}));
+  // const [teamUps, setTeamUps] = useState(Array());
   const [enemyUnits, setEnemyUnits] = useState(Array(6).fill({id: null}));
   const [isTeam, setIsTeam] = useState(true);
 
@@ -25,6 +27,11 @@ function App() {
         }
         return newUnits;
       });
+      
+      // setTeamUps((prev) => {
+      //   const newTeamUps = [...prev];
+      // }
+
     } else {
       setEnemyUnits((prev) => {
         const newUnits = [...prev];
@@ -47,10 +54,7 @@ function App() {
     <>
     <Navbar></Navbar>
     <div className='top-input'>
-      <div className='team-up-section'>
-        <h2 className='team-up-heading'>Team Up Abilities</h2>
-        Hello!
-      </div>
+      <TeamUp></TeamUp>
       <div className='top-section'>
         <h1>Team Builder</h1>
         <div className='top-panel'>
@@ -65,7 +69,7 @@ function App() {
                 Reset
             </button>
           </div>
-          <Board teamUnits={teamUnits} enemyUnits={enemyUnits} onUnitClick={handleUnitClick}></Board>
+          <Board teamUnits={teamUnits} enemyUnits={enemyUnits} onUnitClick={handleUnitClick} isTeam={isTeam}></Board>
         </div>
       </div>
     </div>

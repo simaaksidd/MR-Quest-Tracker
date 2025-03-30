@@ -6,7 +6,8 @@
     "id": 1,
     "pickrate": "18.84%",
     "winrate": "51.42%",
-    "img": "./hero_icons/cloak_and_dagger.png"
+    "img": "./hero_icons/cloak_and_dagger.png",
+    "teamup": ["Moon Knight"]
   },
   {
     "name": "Invisible Woman",
@@ -15,7 +16,8 @@
     "id": 2,
     "pickrate": "18.12%",
     "winrate": "50.17%",
-    "img": "./hero_icons/invisible_woman.png"
+    "img": "./hero_icons/invisible_woman.png",
+    "teamup": ["Mister Fantastic", "Human Torch", "The Thing"]
   },
   {
     "name": "Doctor Strange",
@@ -24,7 +26,8 @@
     "id": 3,
     "pickrate": "15.50%",
     "winrate": "50.72%",
-    "img": "./hero_icons/doctor_strange.png"
+    "img": "./hero_icons/doctor_strange.png",
+    "teamup": ["Hulk"]
   },
   {
     "name": "Venom",
@@ -33,7 +36,8 @@
     "id": 4,
     "pickrate": "14.42%",
     "winrate": "50.08%",
-    "img": "./hero_icons/venom.png"
+    "img": "./hero_icons/venom.png",
+    "teamup": ["Spider-Man", "Peni Parker"]
   },
   {
     "name": "Peni Parker",
@@ -42,7 +46,8 @@
     "id": 5,
     "pickrate": "14.29%",
     "winrate": "54.82%",
-    "img": "./hero_icons/peni_parker.png"
+    "img": "./hero_icons/peni_parker.png",
+    "teamup": ["Venom"]
   },
   {
     "name": "Rocket Raccoon",
@@ -51,7 +56,8 @@
     "id": 6,
     "pickrate": "13.99%",
     "winrate": "55.23%",
-    "img": "./hero_icons/rocket_raccoon.png"
+    "img": "./hero_icons/rocket_raccoon.png",
+    "teamup": ["Groot", "The Punisher", "Winter Soldier"]
   },
   {
     "name": "Thor",
@@ -60,7 +66,8 @@
     "id": 7,
     "pickrate": "13.23%",
     "winrate": "54.71%",
-    "img": "./hero_icons/thor.png"
+    "img": "./hero_icons/thor.png",
+    "teamup": ["Hela", "Storm", "Captain America"]
   },
   {
     "name": "Luna Snow",
@@ -69,7 +76,8 @@
     "id": 8,
     "pickrate": "12.61%",
     "winrate": "48.97%",
-    "img": "./hero_icons/luna_snow.png"
+    "img": "./hero_icons/luna_snow.png",
+    "teamup": ["Namor", "Jeff the Land Shark", "Iron Fist"]
   },
   {
     "name": "Magneto",
@@ -78,7 +86,8 @@
     "id": 9,
     "pickrate": "12.60%",
     "winrate": "50.43%",
-    "img": "./hero_icons/magneto.png"
+    "img": "./hero_icons/magneto.png",
+    "teamup": ["Scarlet Witch"]
   },
   {
     "name": "Jeff the Land Shark",
@@ -87,7 +96,8 @@
     "id": 10,
     "pickrate": "11.39%",
     "winrate": "44.61%",
-    "img": "./hero_icons/jeff_the_land_shark.png"
+    "img": "./hero_icons/jeff_the_land_shark.png",
+    "teamup": ["Groot", "Luna Snow"]
   },
   {
     "name": "Groot",
@@ -96,7 +106,8 @@
     "id": 11,
     "pickrate": "11.01%",
     "winrate": "50.32%",
-    "img": "./hero_icons/groot.png"
+    "img": "./hero_icons/groot.png",
+    "teamup": ["Rocket Raccoon", "Jeff the Land Shark"]
   },
   {
     "name": "Mantis",
@@ -105,7 +116,8 @@
     "id": 12,
     "pickrate": "10.24%",
     "winrate": "55.65%",
-    "img": "./hero_icons/mantis.png"
+    "img": "./hero_icons/mantis.png",
+    "teamup": ["Adam Warlock"]
   },
   {
     "name": "Captain America",
@@ -114,7 +126,8 @@
     "id": 13,
     "pickrate": "9.98%",
     "winrate": "53.45%",
-    "img": "./hero_icons/captain_america.png"
+    "img": "./hero_icons/captain_america.png",
+    "teamup": ["Thor"]
   },
   {
     "name": "Moon Knight",
@@ -123,7 +136,8 @@
     "id": 14,
     "pickrate": "8.99%",
     "winrate": "49.09%",
-    "img": "./hero_icons/moon_knight.png"
+    "img": "./hero_icons/moon_knight.png",
+    "teamup": ["Cloak & Dagger"]
   },
   {
     "name": "Hulk",
@@ -132,7 +146,8 @@
     "id": 15,
     "pickrate": "8.98%",
     "winrate": "51.87%",
-    "img": "./hero_icons/hulk.png"
+    "img": "./hero_icons/hulk.png",
+    "teamup": ["Doctor Strange", "Iron Man", "Wolverine"]
   },
   {
     "name": "Loki",
@@ -141,7 +156,8 @@
     "id": 16,
     "pickrate": "8.22%",
     "winrate": "52.55%",
-    "img": "./hero_icons/loki.png"
+    "img": "./hero_icons/loki.png",
+    "teamup": ["Hela"]
   },
   {
     "name": "Winter Soldier",
@@ -150,7 +166,8 @@
     "id": 17,
     "pickrate": "8.09%",
     "winrate": "50.38%",
-    "img": "./hero_icons/winter_soldier.png"
+    "img": "./hero_icons/winter_soldier.png",
+    "teamup": ["Rocket Raccoon"]
   },
   {
     "name": "The Punisher",
@@ -159,7 +176,8 @@
     "id": 18,
     "pickrate": "7.58%",
     "winrate": "48.32%",
-    "img": "./hero_icons/the_punisher.png"
+    "img": "./hero_icons/the_punisher.png",
+    "teamup": ["Rocket Raccoon"]
   },
   {
     "name": "Spider Man",
@@ -168,7 +186,8 @@
     "id": 19,
     "pickrate": "6.96%",
     "winrate": "49.45%",
-    "img": "./hero_icons/spider_man.png"
+    "img": "./hero_icons/spider_man.png",
+    "teamup": ["Venom", "Squirrel Girl"]
   },
   {
     "name": "Psylocke",
@@ -177,7 +196,8 @@
     "id": 20,
     "pickrate": "6.50%",
     "winrate": "50.17%",
-    "img": "./hero_icons/psylocke.png"
+    "img": "./hero_icons/psylocke.png",
+    "teamup": ["Magik"]
   },
   {
     "name": "Scarlet Witch",
@@ -186,7 +206,8 @@
     "id": 21,
     "pickrate": "6.06%",
     "winrate": "50.48%",
-    "img": "./hero_icons/scarlet_witch.png"
+    "img": "./hero_icons/scarlet_witch.png",
+    "teamup": ["Magneto"]
   },
   {
     "name": "Iron Man",
@@ -195,7 +216,8 @@
     "id": 22,
     "pickrate": "5.83%",
     "winrate": "50.08%",
-    "img": "./hero_icons/iron_man.png"
+    "img": "./hero_icons/iron_man.png",
+    "teamup": ["Hulk"]
   },
   {
     "name": "Mister Fantastic",
@@ -204,7 +226,8 @@
     "id": 23,
     "pickrate": "5.03%",
     "winrate": "53.99%",
-    "img": "./hero_icons/mister_fantastic.png"
+    "img": "./hero_icons/mister_fantastic.png",
+    "teamup": ["Invisible Woman"]
   },
   {
     "name": "Magik",
@@ -213,7 +236,8 @@
     "id": 24,
     "pickrate": "4.75%",
     "winrate": "53.14%",
-    "img": "./hero_icons/magik.png"
+    "img": "./hero_icons/magik.png",
+    "teamup": ["Black Panther", "Psylocke"]
   },
   {
     "name": "Namor",
@@ -222,7 +246,8 @@
     "id": 25,
     "pickrate": "4.19%",
     "winrate": "50.72%",
-    "img": "./hero_icons/namor.png"
+    "img": "./hero_icons/namor.png",
+    "teamup": ["Luna Snow"]
   },
   {
     "name": "Hela",
@@ -231,7 +256,8 @@
     "id": 26,
     "pickrate": "3.97%",
     "winrate": "50.07%",
-    "img": "./hero_icons/hela.png"
+    "img": "./hero_icons/hela.png",
+    "teamup": ["Loki", "Thor"]
   },
   {
     "name": "Storm",
@@ -240,7 +266,8 @@
     "id": 27,
     "pickrate": "3.73%",
     "winrate": "58.11%",
-    "img": "./hero_icons/storm.png"
+    "img": "./hero_icons/storm.png",
+    "teamup": ["Thor", "Human Torch"]
   },
   {
     "name": "Wolverine",
@@ -249,7 +276,8 @@
     "id": 28,
     "pickrate": "3.69%",
     "winrate": "49.41%",
-    "img": "./hero_icons/wolverine.png"
+    "img": "./hero_icons/wolverine.png",
+    "teamup": ["Hulk", "The Thing"]
   },
   {
     "name": "Black Panther",
@@ -258,7 +286,8 @@
     "id": 29,
     "pickrate": "3.45%",
     "winrate": "49.89%",
-    "img": "./hero_icons/black_panther.png"
+    "img": "./hero_icons/black_panther.png",
+    "teamup": ["Magik"]
   },
   {
     "name": "Hawkeye",
@@ -267,7 +296,8 @@
     "id": 30,
     "pickrate": "3.26%",
     "winrate": "44.63%",
-    "img": "./hero_icons/hawkeye.png"
+    "img": "./hero_icons/hawkeye.png",
+    "teamup": ["Black Widow"]
   },
   {
     "name": "Iron Fist",
@@ -276,7 +306,8 @@
     "id": 31,
     "pickrate": "3.11%",
     "winrate": "49.95%",
-    "img": "./hero_icons/iron_fist.png"
+    "img": "./hero_icons/iron_fist.png",
+    "teamup": ["Luna Snow"]
   },
   {
     "name": "Black Widow",
@@ -285,7 +316,8 @@
     "id": 32,
     "pickrate": "2.76%",
     "winrate": "42.31%",
-    "img": "./hero_icons/black_widow.png"
+    "img": "./hero_icons/black_widow.png",
+    "teamup": ["Hawkeye"]
   },
   {
     "name": "Star-Lord",
@@ -294,7 +326,8 @@
     "id": 33,
     "pickrate": "5.90%",
     "winrate": "49.15%",
-    "img": "./hero_icons/star_lord.png"
+    "img": "./hero_icons/star_lord.png",
+    "teamup": ["Adam Warlock"]
   },
   {
     "name": "Squirrel Girl",
@@ -303,7 +336,8 @@
     "id": 34,
     "pickrate": "6.15%",
     "winrate": "50.40%",
-    "img": "./hero_icons/squirrel_girl.png"
+    "img": "./hero_icons/squirrel_girl.png",
+    "teamup": ["Spider-Man"]
   },
   {
     "name": "Adam Warlock",
@@ -312,7 +346,8 @@
     "id": 35,
     "pickrate": "6.59%",
     "winrate": "52.42%",
-    "img": "./hero_icons/adam_warlock.png"
+    "img": "./hero_icons/adam_warlock.png",
+    "teamup": ["Mantis", "Star-Lord"]
   },
   {
     "name": "Human Torch",
@@ -321,7 +356,8 @@
     "id": 36,
     "pickrate": null,
     "winrate": null,
-    "img": "./hero_icons/human_torch.png"
+    "img": "./hero_icons/human_torch.png",
+    "teamup": ["Storm", "Invisible Woman"]
   },
   {
     "name": "The Thing",
@@ -330,6 +366,7 @@
     "id": 37,
     "pickrate": null,
     "winrate": null,
-    "img": "./hero_icons/the_thing.png"
+    "img": "./hero_icons/the_thing.png",
+    "teamup": ["Wolverine", "Invisible Woman"]
   }
 ]

@@ -26,6 +26,7 @@
   border-radius: 10px;
 }
 
+
 .top-panel {
   display: flex;
   flex-direction: column;
@@ -89,11 +90,7 @@ button {
   background-color: transparent;
   border: 1px solid goldenrod;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: rgba(218, 165, 32, 0.1);
+  
 }
 
 footer {

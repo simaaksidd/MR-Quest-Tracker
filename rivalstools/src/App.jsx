@@ -7,7 +7,6 @@ import TeamUp from './components/TeamUp';
 
 function App() {
   const [teamUnits, setTeamUnits] = useState(Array(6).fill({id: null}));
-  // const [teamUps, setTeamUps] = useState(Array());
   const [enemyUnits, setEnemyUnits] = useState(Array(6).fill({id: null}));
   const [isTeam, setIsTeam] = useState(true);
 
@@ -27,11 +26,6 @@ function App() {
         }
         return newUnits;
       });
-      
-      // setTeamUps((prev) => {
-      //   const newTeamUps = [...prev];
-      // }
-
     } else {
       setEnemyUnits((prev) => {
         const newUnits = [...prev];

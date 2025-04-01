@@ -8,11 +8,12 @@ function TeamUp({ teamUnits, enemyUnits, isTeam }) {
             hero.id && (
                 <div key={index} className='team-up-container'>
                     <img
-                        src={hero.img}
-                        alt={hero.name}
+                        src={"./teamup-icons-activated/Planet_x_Pals.webp"}
+                        alt={hero.teamup.name}
                         title={hero.name}
+                        type="image/webp"
                         className='team-up-icon'/>
-                    <span className='team-up-info'>{hero.name}</span>
+                    <span className='team-up-info'>{}</span>
                 </div>
             )
         ))

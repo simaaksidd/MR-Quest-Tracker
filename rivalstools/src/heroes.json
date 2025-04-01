@@ -7,7 +7,15 @@
     "pickrate": "18.84%",
     "winrate": "51.42%",
     "img": "./hero_icons/cloak_and_dagger.png",
-    "teamup": ["Moon Knight"]
+    "teamup": [{
+      "name": "Lunar Force",
+      "primary": "Cloak & Dagger",
+      "secondary": ["Moon Knight"],
+      "desc":
+        "Cloak & Dagger grant Moon Knight a new active ability, which he can use to become temporarily invisible.",
+      "teamUpIconD": "./teamup-icons-deactivated/Lunar_Force",
+      "teamUpIconA": "./teamup-icons-activated/Lunar_Force"
+    }] 
   },
   {
     "name": "Invisible Woman",
@@ -17,7 +25,15 @@
     "pickrate": "18.12%",
     "winrate": "50.17%",
     "img": "./hero_icons/invisible_woman.png",
-    "teamup": ["Mister Fantastic", "Human Torch", "The Thing"]
+    "teamup": [{
+      "name": "Fantastic Four",
+      "primary": "Invisible Woman",
+      "secondary": ["Mister Fantastic", "Human Torch", "The Thing"],
+      "desc":
+        "Invisible Woman grants Mister Fantastic, Human Torch, and The Thing a new ability, which gives them increased damage resistance and continually generating bonus health.",
+      "teamUpIconD": "./teamup-icons-deactivated/Fantastic_Four",
+      "teamUpIconA": "./teamup-icons-activated/Fantastic_Four"
+    }] 
   },
   {
     "name": "Doctor Strange",
@@ -27,7 +43,7 @@
     "pickrate": "15.50%",
     "winrate": "50.72%",
     "img": "./hero_icons/doctor_strange.png",
-    "teamup": ["Hulk"]
+    "teamup": [] 
   },
   {
     "name": "Venom",
@@ -37,7 +53,15 @@
     "pickrate": "14.42%",
     "winrate": "50.08%",
     "img": "./hero_icons/venom.png",
-    "teamup": ["Spider-Man", "Peni Parker"]
+    "teamup": [{
+      "name": "Symbiote Bond",
+      "primary": "Venom",
+      "secondary": ["Spider-Man", "Peni Parker"],
+      "desc":
+        "Venom grants Spider-Man and Peni Parker an active ability, which allows them to channel a symbiote through them, dealing damage to enemies and pushing them back.",
+      "teamUpIconD": "./teamup-icons-deactivated/Symbiote_Bond",
+      "teamUpIconA": "./teamup-icons-activated/Symbiote_Bond"
+    }] 
   },
   {
     "name": "Peni Parker",
@@ -47,7 +71,7 @@
     "pickrate": "14.29%",
     "winrate": "54.82%",
     "img": "./hero_icons/peni_parker.png",
-    "teamup": ["Venom"]
+    "teamup": [] 
   },
   {
     "name": "Rocket Raccoon",
@@ -57,7 +81,15 @@
     "pickrate": "13.99%",
     "winrate": "55.23%",
     "img": "./hero_icons/rocket_raccoon.png",
-    "teamup": ["Groot", "The Punisher", "Winter Soldier"]
+    "teamup": [{
+      "name": "Ammo Overload",
+      "primary": "Rocket Raccoon",
+      "secondary": ["The Punisher", "Winter Soldier"],
+      "desc":
+        "Rocket Raccoon gains a bonus ability that allows him to place an ammo device on the ground. This device grants The Punisher and Winter Soldier faster firing weapons and unlimited ammo while they're nearby.",
+      "teamUpIconD": "./teamup-icons-deactivated/Ammo_Overload",
+      "teamUpIconA": "./teamup-icons-activated/Ammo_Overload"
+    }] 
   },
   {
     "name": "Thor",
@@ -67,7 +99,15 @@
     "pickrate": "13.23%",
     "winrate": "54.71%",
     "img": "./hero_icons/thor.png",
-    "teamup": ["Hela", "Storm", "Captain America"]
+    "teamup": [{
+      "name": "Voltaic Union",
+      "primary": "Thor",
+      "secondary": ["Storm", "Captain America"],
+      "desc":
+        "Thor grants Captain America and Storm an active ability, which allows them to channel lightning through their normal attacks.",
+      "teamUpIconD": "./teamup-icons-deactivated/Voltaic_Union",
+      "teamUpIconA": "./teamup-icons-activated/Voltaic_Union"
+    }] 
   },
   {
     "name": "Luna Snow",
@@ -77,7 +117,24 @@
     "pickrate": "12.61%",
     "winrate": "48.97%",
     "img": "./hero_icons/luna_snow.png",
-    "teamup": ["Namor", "Jeff the Land Shark", "Iron Fist"]
+    "teamup": [{
+      "name": "Chilling Charisma",
+      "primary": "Luna Snow",
+      "secondary": ["Namor", "Jeff the Land Shark"],
+      "desc":
+        "Luna Snow grants an active ability to both Namor and Jeff the Land Shark. This ability infuses Jeff's attacks with a slowing field, while augmenting Namor's summons with bonus ice damage.",
+      "teamUpIconD": "./teamup-icons-deactivated/Chilling_Charisma",
+      "teamUpIconA": "./teamup-icons-activated/Chilling_Charisma"
+    },
+    {
+      "name": "Atlas Bond",
+      "primary": "Iron Fist",
+      "secondary": ["Luna Snow"],
+      "desc":
+        "Iron Fist grants Luna Snow a bonus active ability, which causes an ice ring to explode around her when activated. This ring launches enemies up and heals nearby allies.",
+      "teamUpIconD": "./teamup-icons-deactivated/Atlas_Bond",
+      "teamUpIconA": "./teamup-icons-activated/Atlas_Bond"
+    }] 
   },
   {
     "name": "Magneto",
@@ -87,7 +144,15 @@
     "pickrate": "12.60%",
     "winrate": "50.43%",
     "img": "./hero_icons/magneto.png",
-    "teamup": ["Scarlet Witch"]
+    "teamup": [{
+      "name": "Metallic Chaos",
+      "primary": "Scarlet Witch",
+      "secondary": ["Magneto"],
+      "desc":
+        "Scarlet Witch grants Magneto an ability called Metallic Fusion, which he can activate to enchant his greatsword to fire slashing projectiles at enemies.",
+      "teamUpIconD": "./teamup-icons-deactivated/Metallic_Chaos",
+      "teamUpIconA": "./teamup-icons-activated/Metallic_Chaos"
+    }] 
   },
   {
     "name": "Jeff the Land Shark",
@@ -97,7 +162,7 @@
     "pickrate": "11.39%",
     "winrate": "44.61%",
     "img": "./hero_icons/jeff_the_land_shark.png",
-    "teamup": ["Groot", "Luna Snow"]
+    "teamup": [] 
   },
   {
     "name": "Groot",
@@ -107,7 +172,15 @@
     "pickrate": "11.01%",
     "winrate": "50.32%",
     "img": "./hero_icons/groot.png",
-    "teamup": ["Rocket Raccoon", "Jeff the Land Shark"]
+    "teamup": [{
+      "name": "Planet X Pals",
+      "primary": "Groot",
+      "secondary": ["Rocket Raccoon", "Jeff the Land Shark"],
+      "desc":
+        "Rocket Raccoon and Jeff the Land Shark can interact with Groot to ride around on his shoulders, granting them bonus damage reduction.",
+      "teamUpIconD": "./teamup-icons-deactivated/Planet_X_Pals",
+      "teamUpIconA": "./teamup-icons-activated/Planet_X_Pals"
+    }] 
   },
   {
     "name": "Mantis",
@@ -117,7 +190,7 @@
     "pickrate": "10.24%",
     "winrate": "55.65%",
     "img": "./hero_icons/mantis.png",
-    "teamup": ["Adam Warlock"]
+    "teamup": [] 
   },
   {
     "name": "Captain America",
@@ -127,7 +200,7 @@
     "pickrate": "9.98%",
     "winrate": "53.45%",
     "img": "./hero_icons/captain_america.png",
-    "teamup": ["Thor"]
+    "teamup": [] 
   },
   {
     "name": "Moon Knight",
@@ -137,7 +210,15 @@
     "pickrate": "8.99%",
     "winrate": "49.09%",
     "img": "./hero_icons/moon_knight.png",
-    "teamup": ["Cloak & Dagger"]
+    "teamup": [{
+      "name": "Lunar Force",
+      "primary": "Cloak & Dagger",
+      "secondary": ["Moon Knight"],
+      "desc":
+        "Cloak & Dagger grant Moon Knight a new active ability, which he can use to become temporarily invisible.",
+      "teamUpIconD": "./teamup-icons-deactivated/Lunar_Force",
+      "teamUpIconA": "./teamup-icons-activated/Lunar_Force"
+    }] 
   },
   {
     "name": "Hulk",
@@ -147,7 +228,15 @@
     "pickrate": "8.98%",
     "winrate": "51.87%",
     "img": "./hero_icons/hulk.png",
-    "teamup": ["Doctor Strange", "Iron Man", "Wolverine"]
+    "teamup": [{
+      "name": "Gamma Charge",
+      "primary": "Hulk",
+      "secondary": ["Doctor Strange", "Iron Man"],
+      "desc":
+        "Hulk's presence augments Iron Man's Armor Overdrive and Doctor Strange's Maelstrom of Madness, making them more powerful.",
+      "teamUpIconD": "./teamup-icons-deactivated/Gamma_Charge",
+      "teamUpIconA": "./teamup-icons-activated/Gamma_Charge"
+    }] 
   },
   {
     "name": "Loki",
@@ -157,7 +246,7 @@
     "pickrate": "8.22%",
     "winrate": "52.55%",
     "img": "./hero_icons/loki.png",
-    "teamup": ["Hela"]
+    "teamup": [] 
   },
   {
     "name": "Winter Soldier",
@@ -167,7 +256,7 @@
     "pickrate": "8.09%",
     "winrate": "50.38%",
     "img": "./hero_icons/winter_soldier.png",
-    "teamup": ["Rocket Raccoon"]
+    "teamup": [] 
   },
   {
     "name": "The Punisher",
@@ -177,7 +266,7 @@
     "pickrate": "7.58%",
     "winrate": "48.32%",
     "img": "./hero_icons/the_punisher.png",
-    "teamup": ["Rocket Raccoon"]
+    "teamup": [] 
   },
   {
     "name": "Spider Man",
@@ -187,7 +276,15 @@
     "pickrate": "6.96%",
     "winrate": "49.45%",
     "img": "./hero_icons/spider_man.png",
-    "teamup": ["Venom", "Squirrel Girl"]
+    "teamup": [{
+      "name": "ESU Alumnus",
+      "primary": "Spider-Man",
+      "secondary": ["Squirrel Girl"],
+      "desc":
+        "Spider-Man gives Squirrel Girl a bonus active ability, which allows her to web up enemies via a special web bomb.",
+      "teamUpIconD": "./teamup-icons-deactivated/ESU_Alumnus",
+      "teamUpIconA": "./teamup-icons-activated/ESU_Alumnus"
+    }] 
   },
   {
     "name": "Psylocke",
@@ -197,7 +294,7 @@
     "pickrate": "6.50%",
     "winrate": "50.17%",
     "img": "./hero_icons/psylocke.png",
-    "teamup": ["Magik"]
+    "teamup": [] 
   },
   {
     "name": "Scarlet Witch",
@@ -207,7 +304,15 @@
     "pickrate": "6.06%",
     "winrate": "50.48%",
     "img": "./hero_icons/scarlet_witch.png",
-    "teamup": ["Magneto"]
+    "teamup": [{
+      "name": "Metallic Chaos",
+      "primary": "Scarlet Witch",
+      "secondary": ["Magneto"],
+      "desc":
+        "Scarlet Witch grants Magneto an ability called Metallic Fusion, which he can activate to enchant his greatsword to fire slashing projectiles at enemies.",
+      "teamUpIconD": "./teamup-icons-deactivated/Metallic_Chaos",
+      "teamUpIconA": "./teamup-icons-activated/Metallic_Chaos"
+    }] 
   },
   {
     "name": "Iron Man",
@@ -217,7 +322,7 @@
     "pickrate": "5.83%",
     "winrate": "50.08%",
     "img": "./hero_icons/iron_man.png",
-    "teamup": ["Hulk"]
+    "teamup": [] 
   },
   {
     "name": "Mister Fantastic",
@@ -227,7 +332,7 @@
     "pickrate": "5.03%",
     "winrate": "53.99%",
     "img": "./hero_icons/mister_fantastic.png",
-    "teamup": ["Invisible Woman"]
+    "teamup": [] 
   },
   {
     "name": "Magik",
@@ -237,7 +342,15 @@
     "pickrate": "4.75%",
     "winrate": "53.14%",
     "img": "./hero_icons/magik.png",
-    "teamup": ["Black Panther", "Psylocke"]
+    "teamup": [{
+      "name": "Dimensional Shortcut",
+      "primary": "Magik",
+      "secondary": ["Black Panther", "Psylocke"],
+      "desc":
+        "Magik grants an active ability to Black Panther and Psylocke, which allows them to travel backward in time while also giving them bonus health.",
+      "teamUpIconD": "./teamup-icons-deactivated/Dimensional_Shortcut",
+      "teamUpIconA": "./teamup-icons-activated/Dimensional_Shortcut"
+    }] 
   },
   {
     "name": "Namor",
@@ -247,7 +360,7 @@
     "pickrate": "4.19%",
     "winrate": "50.72%",
     "img": "./hero_icons/namor.png",
-    "teamup": ["Luna Snow"]
+    "teamup": [] 
   },
   {
     "name": "Hela",
@@ -257,7 +370,15 @@
     "pickrate": "3.97%",
     "winrate": "50.07%",
     "img": "./hero_icons/hela.png",
-    "teamup": ["Loki", "Thor"]
+    "teamup": [{
+      "name": "Ragnarok Rebirth",
+      "primary": "Hela",
+      "secondary": ["Loki", "Thor"],
+      "desc":
+        "Hela gains a passive ability that allows her, after she secures the final hit on an enemy, to instantly resurrect one of her brothers if they're dead, or give them bonus health if they're living.",
+      "teamUpIconD": "./teamup-icons-deactivated/Ragnarok_Rebirth",
+      "teamUpIconA": "./teamup-icons-activated/Ragnarok_Rebirth"
+    }] 
   },
   {
     "name": "Storm",
@@ -267,7 +388,14 @@
     "pickrate": "3.73%",
     "winrate": "58.11%",
     "img": "./hero_icons/storm.png",
-    "teamup": ["Thor", "Human Torch"]
+    "teamup": [{
+      "name": "Storming Ignition",
+      "primary": "Storm",
+      "secondary": ["Human Torch"],
+      "desc": "Storm and Human Torch can combine their ultimates together to create a massive, flaming tornado.",
+      "teamUpIconD": "./teamup-icons-deactivated/Storming_Ignition",
+      "teamUpIconA": "./teamup-icons-activated/Storming_Ignition"
+    }] 
   },
   {
     "name": "Wolverine",
@@ -277,7 +405,15 @@
     "pickrate": "3.69%",
     "winrate": "49.41%",
     "img": "./hero_icons/wolverine.png",
-    "teamup": ["Hulk", "The Thing"]
+    "teamup": [{
+      "name": "Fastball Special",
+      "primary": "Wolverine",
+      "secondary": ["Hulk", "The Thing"],
+      "desc":
+        "Hulk or The Thing can agree to team-up with Wolverine with a button press, allowing either of them to throw Wolverine a great distance.",
+      "teamUpIconD": "./teamup-icons-deactivated/Fastball_Special",
+      "teamUpIconA": "./teamup-icons-activated/Fastball_Special"
+    }] 
   },
   {
     "name": "Black Panther",
@@ -287,7 +423,7 @@
     "pickrate": "3.45%",
     "winrate": "49.89%",
     "img": "./hero_icons/black_panther.png",
-    "teamup": ["Magik"]
+    "teamup": [] 
   },
   {
     "name": "Hawkeye",
@@ -297,7 +433,15 @@
     "pickrate": "3.26%",
     "winrate": "44.63%",
     "img": "./hero_icons/hawkeye.png",
-    "teamup": ["Black Widow"]
+    "teamup": [{
+      "name": "Allied Agents",
+      "primary": "Hawkeye",
+      "secondary": ["Black Widow"],
+      "desc":
+        "Hawkeye grants Black Widow a new active ability, which allows her to spot and damage enemy afterimages.",
+      "teamUpIconD": "./teamup-icons-deactivated/Allied_Agents",
+      "teamUpIconA": "./teamup-icons-activated/Allied_Agents"
+    }] 
   },
   {
     "name": "Iron Fist",
@@ -307,7 +451,15 @@
     "pickrate": "3.11%",
     "winrate": "49.95%",
     "img": "./hero_icons/iron_fist.png",
-    "teamup": ["Luna Snow"]
+    "teamup": [{
+      "name": "Atlas Bond",
+      "primary": "Iron Fist",
+      "secondary": ["Luna Snow"],
+      "desc":
+        "Iron Fist grants Luna Snow a bonus active ability, which causes an ice ring to explode around her when activated. This ring launches enemies up and heals nearby allies.",
+      "teamUpIconD": "./teamup-icons-deactivated/Atlas_Bond",
+      "teamUpIconA": "./teamup-icons-activated/Atlas_Bond"
+    }] 
   },
   {
     "name": "Black Widow",
@@ -317,7 +469,15 @@
     "pickrate": "2.76%",
     "winrate": "42.31%",
     "img": "./hero_icons/black_widow.png",
-    "teamup": ["Hawkeye"]
+    "teamup": [{
+      "name": "Allied Agents",
+      "primary": "Hawkeye",
+      "secondary": ["Black Widow"],
+      "desc":
+        "Hawkeye grants Black Widow a new active ability, which allows her to spot and damage enemy afterimages.",
+      "teamUpIconD": "./teamup-icons-deactivated/Allied_Agents",
+      "teamUpIconA": "./teamup-icons-activated/Allied_Agents"
+    }] 
   },
   {
     "name": "Star-Lord",
@@ -327,7 +487,7 @@
     "pickrate": "5.90%",
     "winrate": "49.15%",
     "img": "./hero_icons/star_lord.png",
-    "teamup": ["Adam Warlock"]
+    "teamup": [] 
   },
   {
     "name": "Squirrel Girl",
@@ -337,7 +497,15 @@
     "pickrate": "6.15%",
     "winrate": "50.40%",
     "img": "./hero_icons/squirrel_girl.png",
-    "teamup": ["Spider-Man"]
+    "teamup": [{
+      "name": "ESU Alumnus",
+      "primary": "Spider-Man",
+      "secondary": ["Squirrel Girl"],
+      "desc":
+        "Spider-Man gives Squirrel Girl a bonus active ability, which allows her to web up enemies via a special web bomb.",
+      "teamUpIconD": "./teamup-icons-deactivated/ESU_Alumnus",
+      "teamUpIconA": "./teamup-icons-activated/ESU_Alumnus"
+    }] 
   },
   {
     "name": "Adam Warlock",
@@ -347,7 +515,15 @@
     "pickrate": "6.59%",
     "winrate": "52.42%",
     "img": "./hero_icons/adam_warlock.png",
-    "teamup": ["Mantis", "Star-Lord"]
+    "teamup": [{
+      "name": "Guardian Revival",
+      "primary": "Adam Warlock",
+      "secondary": ["Mantis", "Star-Lord"],
+      "desc":
+        "Adam Warlock shares his cocoon revival ability with Mantis and Star-Lord, allowing them to revive mid-combat every two minutes.",
+      "teamUpIconD": "./teamup-icons-deactivated/Guardian_Revival",
+      "teamUpIconA": "./teamup-icons-activated/Guardian_Revival"
+    }] 
   },
   {
     "name": "Human Torch",
@@ -357,7 +533,14 @@
     "pickrate": null,
     "winrate": null,
     "img": "./hero_icons/human_torch.png",
-    "teamup": ["Storm", "Invisible Woman"]
+    "teamup": [{
+      "name": "Storming Ignition",
+      "primary": "Storm",
+      "secondary": ["Human Torch"],
+      "desc": "Storm and Human Torch can combine their ultimates together to create a massive, flaming tornado.",
+      "teamUpIconD": "./teamup-icons-deactivated/Storming_Ignition",
+      "teamUpIconA": "./teamup-icons-activated/Storming_Ignition"
+    }] 
   },
   {
     "name": "The Thing",
@@ -367,6 +550,6 @@
     "pickrate": null,
     "winrate": null,
     "img": "./hero_icons/the_thing.png",
-    "teamup": ["Wolverine", "Invisible Woman"]
+    "teamup": [] 
   }
 ]

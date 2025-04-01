@@ -1,103 +1,154 @@
 [
   {
     "name": "Ragnarok Rebirth",
-    "characters": ["Hela", "Loki", "Thor"],
-    "description":
-      "Hela gains a passive ability that allows her, after she secures the final hit on an enemy, to instantly resurrect one of her brothers if they're dead, or give them bonus health if they're living."
+    "primary": "Hela",
+    "secondary": ["Loki", "Thor"],
+    "desc":
+      "Hela gains a passive ability that allows her, after she secures the final hit on an enemy, to instantly resurrect one of her brothers if they're dead, or give them bonus health if they're living.",
+    "teamUpIconD": "./teamup-icons-deactivated/Ragnarok_Rebirth",
+    "teamUpIconA": "./teamup-icons-activated/Ragnarok_Rebirth"
   },
   {
     "name": "Metallic Chaos",
-    "characters": ["Scarlet Witch", "Magneto"],
-    "description":
-      "Scarlet Witch grants Magneto an ability called Metallic Fusion, which he can activate to enchant his greatsword to fire slashing projectiles at enemies."
+    "primary": "Scarlet Witch",
+    "secondary": ["Magneto"],
+    "desc":
+      "Scarlet Witch grants Magneto an ability called Metallic Fusion, which he can activate to enchant his greatsword to fire slashing projectiles at enemies.",
+    "teamUpIconD": "./teamup-icons-deactivated/Metallic_Chaos",
+    "teamUpIconA": "./teamup-icons-activated/Metallic_Chaos"
   },
   {
     "name": "Voltaic Union",
-    "characters": ["Thor", "Storm", "Captain America"],
-    "description":
-      "Thor grants Captain America and Storm an active ability, which allows them to channel lightning through their normal attacks."
+    "primary": "Thor",
+    "secondary": ["Storm", "Captain America"],
+    "desc":
+      "Thor grants Captain America and Storm an active ability, which allows them to channel lightning through their normal attacks.",
+    "teamUpIconD": "./teamup-icons-deactivated/Voltaic_Union",
+    "teamUpIconA": "./teamup-icons-activated/Voltaic_Union"
   },
   {
     "name": "Planet X Pals",
-    "characters": ["Groot", "Rocket Raccoon", "Jeff the Land Shark"],
-    "description":
-      "Rocket Raccoon and Jeff the Land Shark can interact with Groot to ride around on his shoulders, granting them bonus damage reduction."
+    "primary": "Groot",
+    "secondary": ["Rocket Raccoon", "Jeff the Land Shark"],
+    "desc":
+      "Rocket Raccoon and Jeff the Land Shark can interact with Groot to ride around on his shoulders, granting them bonus damage reduction.",
+    "teamUpIconD": "./teamup-icons-deactivated/Planet_X_Pals",
+    "teamUpIconA": "./teamup-icons-activated/Planet_X_Pals"
   },
   {
     "name": "Symbiote Bond",
-    "characters": ["Venom", "Spider-Man", "Peni Parker"],
-    "description":
-      "Venom grants Spider-Man and Peni Parker an active ability, which allows them to channel a symbiote through them, dealing damage to enemies and pushing them back."
+    "primary": "Venom",
+    "secondary": ["Spider-Man", "Peni Parker"],
+    "desc":
+      "Venom grants Spider-Man and Peni Parker an active ability, which allows them to channel a symbiote through them, dealing damage to enemies and pushing them back.",
+    "teamUpIconD": "./teamup-icons-deactivated/Symbiote_Bond",
+    "teamUpIconA": "./teamup-icons-activated/Symbiote_Bond"
   },
   {
     "name": "Gamma Charge",
-    "characters": ["Hulk", "Doctor Strange", "Iron Man"],
-    "description":
-      "Hulk's presence augments Iron Man's Armor Overdrive and Doctor Strange's Maelstrom of Madness, making them more powerful."
+    "primary": "Hulk",
+    "secondary": ["Doctor Strange", "Iron Man"],
+    "desc":
+      "Hulk's presence augments Iron Man's Armor Overdrive and Doctor Strange's Maelstrom of Madness, making them more powerful.",
+    "teamUpIconD": "./teamup-icons-deactivated/Gamma_Charge",
+    "teamUpIconA": "./teamup-icons-activated/Gamma_Charge"
   },
   {
     "name": "Ammo Overload",
-    "characters": ["Rocket Raccoon", "The Punisher", "Winter Soldier"],
-    "description":
-      "Rocket Raccoon gains a bonus ability that allows him to place an ammo device on the ground. This device grants The Punisher and Winter Soldier faster firing weapons and unlimited ammo while they're nearby."
+    "primary": "Rocket Raccoon",
+    "secondary": ["The Punisher", "Winter Soldier"],
+    "desc":
+      "Rocket Raccoon gains a bonus ability that allows him to place an ammo device on the ground. This device grants The Punisher and Winter Soldier faster firing weapons and unlimited ammo while they're nearby.",
+    "teamUpIconD": "./teamup-icons-deactivated/Ammo_Overload",
+    "teamUpIconA": "./teamup-icons-activated/Ammo_Overload"
   },
   {
     "name": "Dimensional Shortcut",
-    "characters": ["Magik", "Black Panther", "Psylocke"],
-    "description":
-      "Magik grants an active ability to Black Panther and Psylocke, which allows them to travel backward in time while also giving them bonus health."
+    "primary": "Magik",
+    "secondary": ["Black Panther", "Psylocke"],
+    "desc":
+      "Magik grants an active ability to Black Panther and Psylocke, which allows them to travel backward in time while also giving them bonus health.",
+    "teamUpIconD": "./teamup-icons-deactivated/Dimensional_Shortcut",
+    "teamUpIconA": "./teamup-icons-activated/Dimensional_Shortcut"
   },
   {
     "name": "Lunar Force",
-    "characters": ["Cloak and Dagger", "Moon Knight"],
-    "description":
-      "Cloak & Dagger grant Moon Knight a new active ability, which he can use to become temporarily invisible."
+    "primary": "Cloak & Dagger",
+    "secondary": ["Moon Knight"],
+    "desc":
+      "Cloak & Dagger grant Moon Knight a new active ability, which he can use to become temporarily invisible.",
+    "teamUpIconD": "./teamup-icons-deactivated/Lunar_Force",
+    "teamUpIconA": "./teamup-icons-activated/Lunar_Force"
   },
   {
     "name": "Guardian Revival",
-    "characters": ["Adam Warlock", "Mantis", "Star-Lord"],
-    "description":
-      "Adam Warlock shares his cocoon revival ability with Mantis and Star-Lord, allowing them to revive mid-combat every two minutes."
+    "primary": "Adam Warlock",
+    "secondary": ["Mantis", "Star-Lord"],
+    "desc":
+      "Adam Warlock shares his cocoon revival ability with Mantis and Star-Lord, allowing them to revive mid-combat every two minutes.",
+    "teamUpIconD": "./teamup-icons-deactivated/Guardian_Revival",
+    "teamUpIconA": "./teamup-icons-activated/Guardian_Revival"
   },
   {
     "name": "Chilling Charisma",
-    "characters": ["Luna Snow", "Namor", "Jeff the Land Shark"],
-    "description":
-      "Luna Snow grants an active ability to both Namor and Jeff the Land Shark. This ability infuses Jeff's attacks with a slowing field, while augmenting Namor's summons with bonus ice damage."
+    "primary": "Luna Snow",
+    "secondary": ["Namor", "Jeff the Land Shark"],
+    "desc":
+      "Luna Snow grants an active ability to both Namor and Jeff the Land Shark. This ability infuses Jeff's attacks with a slowing field, while augmenting Namor's summons with bonus ice damage.",
+    "teamUpIconD": "./teamup-icons-deactivated/Chilling_Charisma",
+    "teamUpIconA": "./teamup-icons-activated/Chilling_Charisma"
   },
   {
     "name": "Allied Agents",
-    "characters": ["Hawkeye", "Black Widow"],
-    "description":
-      "Hawkeye grants Black Widow a new active ability, which allows her to spot and damage enemy afterimages."
+    "primary": "Hawkeye",
+    "secondary": ["Black Widow"],
+    "desc":
+      "Hawkeye grants Black Widow a new active ability, which allows her to spot and damage enemy afterimages.",
+    "teamUpIconD": "./teamup-icons-deactivated/Allied_Agents",
+    "teamUpIconA": "./teamup-icons-activated/Allied_Agents"
   },
   {
     "name": "Atlas Bond",
-    "heroes": ["Iron Fist", "Luna Snow"],
-    "description":
-      "Iron Fist grants Luna Snow a bonus active ability, which causes an ice ring to explode around her when activated. This ring launches enemies up and heals nearby allies."
+    "primary": "Iron Fist",
+    "secondary": ["Luna Snow"],
+    "desc":
+      "Iron Fist grants Luna Snow a bonus active ability, which causes an ice ring to explode around her when activated. This ring launches enemies up and heals nearby allies.",
+    "teamUpIconD": "./teamup-icons-deactivated/Atlas_Bond",
+    "teamUpIconA": "./teamup-icons-activated/Atlas_Bond"
   },
   {
     "name": "ESU Alumnus",
-    "characters": ["Spider-Man", "Squirrel Girl"],
-    "description":
-      "Spider-Man gives Squirrel Girl a bonus active ability, which allows her to web up enemies via a special web bomb."
+    "primary": "Spider-Man",
+    "secondary": ["Squirrel Girl"],
+    "desc":
+      "Spider-Man gives Squirrel Girl a bonus active ability, which allows her to web up enemies via a special web bomb.",
+    "teamUpIconD": "./teamup-icons-deactivated/ESU_Alumnus",
+    "teamUpIconA": "./teamup-icons-activated/ESU_Alumnus"
   },
   {
     "name": "Storming Ignition",
-    "characters": ["Storm", "Human Torch"],
-    "description": "Storm and Human Torch can combine their ultimates together to create a massive, flaming tornado."
+    "primary": "Storm",
+    "secondary": ["Human Torch"],
+    "desc": "Storm and Human Torch can combine their ultimates together to create a massive, flaming tornado.",
+    "teamUpIconD": "./teamup-icons-deactivated/Storming_Ignition",
+    "teamUpIconA": "./teamup-icons-activated/Storming_Ignition"
   },
   {
     "name": "Fastball Special",
-    "characters": ["Wolverine", "Hulk", "The Thing"],
-    "description":
-      "Hulk or The Thing can agree to team-up with Wolverine with a button press, allowing either of them to throw Wolverine a great distance."
+    "primary": "Wolverine",
+    "secondary": ["Hulk", "The Thing"],
+    "desc":
+      "Hulk or The Thing can agree to team-up with Wolverine with a button press, allowing either of them to throw Wolverine a great distance.",
+    "teamUpIconD": "./teamup-icons-deactivated/Fastball_Special",
+    "teamUpIconA": "./teamup-icons-activated/Fastball_Special"
   },
   {
     "name": "Fantastic Four",
-    "characters": ["Invisible Woman", "Mister Fantastic", "Human Torch", "The Thing"],
-    "description":
-      "Invisible Woman grants Mister Fantastic, Human Torch, and The Thing a new ability, which gives them increased damage resistance and continually generating bonus health."
+    "primary": "Invisible Woman",
+    "secondary": ["Mister Fantastic", "Human Torch", "The Thing"],
+    "desc":
+      "Invisible Woman grants Mister Fantastic, Human Torch, and The Thing a new ability, which gives them increased damage resistance and continually generating bonus health.",
+    "teamUpIconD": "./teamup-icons-deactivated/Fantastic_Four",
+    "teamUpIconA": "./teamup-icons-activated/Fantastic_Four"
   }
 ]

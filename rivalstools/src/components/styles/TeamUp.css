@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     background-color: rgba(54,53,53,0.8);
-    align-items: center;
     width: 270px;
     height: 500px;
     border-radius: 10px;
@@ -14,4 +13,23 @@
   .team-up-heading {
     font-size: 1.2rem;
     color: goldenrod;
+  }
+
+  .team-up-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    overflow-y: scroll;
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+  .team-up-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+  }
+
+  h2 {
+    text-align: center;
   }

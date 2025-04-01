@@ -8,6 +8,7 @@ import TeamUp from './components/TeamUp';
 function App() {
   const [teamUnits, setTeamUnits] = useState(Array(6).fill({id: null}));
   const [enemyUnits, setEnemyUnits] = useState(Array(6).fill({id: null}));
+  // const [teamUp, setTeamUp] = useState([]);
   const [isTeam, setIsTeam] = useState(true);
 
   const handleUnitClick = (hero) => {
@@ -48,7 +49,7 @@ function App() {
     <>
     <Navbar></Navbar>
     <div className='top-input'>
-      <TeamUp></TeamUp>
+      <TeamUp teamUnits={teamUnits} enemyUnits={enemyUnits} isTeam={isTeam}></TeamUp>
       <div className='top-section'>
         <h1>Team Builder</h1>
         <div className='top-panel'>
